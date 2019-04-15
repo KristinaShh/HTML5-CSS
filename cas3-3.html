@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body>
+	<h1>Форма за регистрација</h1>
+	<br>
+	<hr>
+
+	<form action="" method="">
+		<label for="ime">Име</label>
+		<input type="text" id="ime" name="ime" autofocus required>
+
+		<br><br>
+
+		<label for="prezime">Презиме</label>
+		<input type="text" name="" id="prezime" placeholder="Vnesi prezime">
+
+		<br><br>
+		<label for="email">Емаил адреса</label>
+		<input type="email" name="" id="email">
+
+		<br><br>
+
+		<label for="password">Лозинка</label>
+		<input type="password" name="lozinka" id="password" >
+
+		<br><br>
+
+		Пол
+		<input type="radio" name="pol" value="m" id="r1">
+		<label for="r1">Машки</label>
+
+		<input type="radio" name="pol" value="f" id="r2">
+		<label for="r2">Женски</label>
+
+		<br><br>
+
+		<label for="datum">Датум на раѓање</label>
+		<input type="date" id="datum">
+
+		<input type="time">
+
+		<br><br>
+
+		<label for="komentar">Коментар</label>
+		<textarea id="komentar" placeholder="Внеси коментар....">
+			<!--gfhjfghgfhfgh-->
+		</textarea>
+
+		<br><br>
+
+		<label for="drzava">Држава</label>
+		<select id="drzava">
+			<option value="mk">Македонија</option>
+			<option value="en">Англија</option>
+			<option value="al">Албанија</option>
+		</select>
+
+		<br>
+		<br>
+		<label for="gradovi">Градови</label>
+		<select id="gradovi" multiple>
+			<option value="pp">Прилеп</option>
+			<option value="sk">Скопје</option>
+			<option value="oh">Охрид</option>
+		</select>
+
+		<br>
+		<br>
+		Интереси
+		<input type="checkbox" name="group1" id="interes1">
+		<label for="interes1">Уметност</label>
+
+		<input type="checkbox" name="group1" id="interes2">
+		<label for="interes2">Наука</label>
+
+		<input type="checkbox" name="group1" id="interes3">
+		<label for="interes3">Спорт</label>
+
+		<br>
+		<br>
+		
+		Храна
+		<input type="checkbox" name="group2" id="hrana1">
+		<label for="hrana1">Pizza</label>
+
+		<input type="checkbox" name="group2" id="hrana2">
+		<label for="hrana2">Pizza</label>
+
+		<input type="checkbox" name="group2" id="hrana3">
+		<label for="hrana3">Pizza</label>
+
+		<br>
+		<hr>
+
+		<button>Зачувај</button>
+		
+	</form>
+
+</body>
+</html>
